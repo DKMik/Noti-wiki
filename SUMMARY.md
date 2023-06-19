@@ -15,6 +15,7 @@
 ## Resources
 
 * [Commands](resources/commands.md)
+* [Permissions](resources/permissions.md)
 * [FAQ](resources/faq.md)
 
 ## Links
