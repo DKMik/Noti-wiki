@@ -76,11 +76,3 @@ The reason for this Noti is getting the data too quickly to get all the data acc
 Another reason it can be inaccurate kick API is having issues
 
 </details>
-
-<details>
-
-<summary></summary>
-
-
-
-</details>
