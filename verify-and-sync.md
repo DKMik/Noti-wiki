@@ -4,37 +4,35 @@ Sometimes it can be nice to have the rings done automatically for you. Therefore
 
 ## Verify
 
-The <mark style="color:green;">`/verify`</mark> command will allow you to sync your roles from kick to discord. For example your subscription role and moderator role.
+To begin, use the <mark style="color:green;">`/sync`</mark> command with the required parameter for the social platform you want to link, in this case, `social:kick`. The basic command is `/sync social:kick`.
 
 ### How to?
 
-Use the <mark style="color:green;">`/verify`</mark> command and a embed will show.&#x20;
+Use the <mark style="color:green;">`/sync`</mark> command and a embed will show.&#x20;
 
 The embed will tell you what to do.&#x20;
 
-<figure><img src=".gitbook/assets/Verify.png" alt=""><figcaption></figcaption></figure>
 
-1. Copy the code. This is a personal code that will change from person to person.
-2. Visit [kick.com](https://kick.com/noti/chatroom) this link will take you to a chatroom
-3. Paste in the cose into the chat.
 
-## Sync
+<figure><img src=".gitbook/assets/Sync new.png" alt=""><figcaption></figcaption></figure>
 
-Before you can sync between discord and kick, you need to do the /verify command.&#x20;
+1. Copy the code. This is a personal code that will change from person to person. This code is essential for the linking process and will be valid for 5 minutes.
+2. Now, go to the "Noti" channel in your Discord server. You can find this channel in the server's channel list.
+3. In the "Noti" channel, paste the code you copied earlier. You can either find the code provided in the bot's message or visit [https://kick.com/noti](https://kick.com/noti) to get the code.
+4. After successfully pasting the code, Noti Bot will send a success message in the same "Noti" channel. This message confirms that your account is now linked!
+5. From now on, your account will be automatically synced the moment you join the server.
 
-Are you unsure if you have done this? Then you can use the <mark style="color:green;">`/sync`</mark> command.
+If you ever need to reset the linking process, you can use the `/sync` command again with the <mark style="color:orange;">`reset:true`</mark> option, like this:
 
-When you use the Sync command, Noti will tell you if all your roles is synchronize from kick.com to discord.&#x20;
-
-![](.gitbook/assets/Sync.png)
+* <mark style="color:orange;">`/sync social:kick reset:true`</mark>
 
 ## Panel
 
 You can setup a panel to make it easier for your users to verify or sync.&#x20;
 
-Use the <mark style="color:green;">/panel</mark> command and Noti will post a embed like the picture below.&#x20;
+Use the <mark style="color:green;">`/panel syncronize`</mark> command and Noti will post a embed like the picture below.&#x20;
 
-<figure><img src=".gitbook/assets/Panel.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Sync panel.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Support**
